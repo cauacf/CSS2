@@ -1,0 +1,152 @@
+/* Resetações básicas */
+body, h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-padding-top: 80px; /* Ajuste para a altura do seu header */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #181818;
+    color: #fff;
+}
+
+.navbar {
+    background-color: #222;
+}
+
+section {
+    padding: 60px 0;
+    min-height: 100vh;
+}
+
+#home {
+    background: url('/images/fundo.png') no-repeat center center/cover;
+}
+
+#registro, #login, #galeria {
+    background-color: #333;
+}
+
+#login {
+    margin-top: 100px;
+}
+
+.container {
+    max-width: 1000px;
+    max-height: 1000px;
+    margin: 0 auto;
+    margin-top: 300px;
+}
+
+.btn-primary {
+    background-color: #44C267;
+    border-color: #44C267;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-left: auto;
+    }
+}
+
+.card {
+    width: 300px; /* Largura fixa */
+    height: 400px; /* Altura fixa */
+    overflow: hidden; /* Esconde o conteúdo que ultrapassa o tamanho do card */
+    background-color: #444; /* Cor de fundo do card */
+    border-radius: 8px; /* Cantos arredondados */
+    color: #fff; /* Cor do texto */
+    margin-bottom: 20px; /* Espaçamento inferior entre os cards */
+}
+
+/* Ajusta a imagem dentro do card */
+.card-img-top {
+    width: 100%; /* Largura da imagem para ocupar todo o espaço do card */
+    height: 200px; /* Altura fixa da imagem */
+    object-fit: cover; /* Ajusta a imagem para cobrir toda a área definida */
+}
+
+/* Estilo do conteúdo dentro do card */
+.card-body {
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 200px; /* Altura do conteúdo ajustada para preencher o card */
+}
+
+/* Botão dentro do card */
+.card-body .btn {
+    align-self: flex-end; /* Posiciona o botão no final do card */
+    margin-bottom: 35px;
+}
+
+.overlay-text {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    text-align: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    padding: 10px;
+}
+.card:hover .overlay-text {
+    opacity: 1;
+}
+
+.search-container {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.search-bar {
+    width: 50%;
+    padding: 10px;
+    border-radius: 25px;
+    border: 2px solid #ccc;
+    font-size: 16px;
+    outline: none;
+}
+
+.search-icons {
+    margin-top: 10px;
+}
+
+.search-icons a {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.search-icons img {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.3s;
+}
+
+.search-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilo opcional para o modal, se necessário */
+.modal-content {
+    background-color: #333;
+    color: #fff;
+}
+
+.modal-header {
+    border-bottom: 1px solid #6A00BD;
+}
+
+.modal-footer {
+    border-top: 1px solid #6A00BD;
+}
