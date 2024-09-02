@@ -39,14 +39,13 @@ section {
 }
 
 #login {
-    margin-top: 100px;
+    margin-top: 75px;
 }
 
 .container {
     max-width: 1000px;
     max-height: 1000px;
     margin: 0 auto;
-    margin-top: 300px;
 }
 
 .btn-primary {
@@ -111,6 +110,7 @@ section {
     text-align: center;
     margin-top: 20px;
     margin-bottom: 10px;
+    margin-top: 50px;
 }
 
 .search-bar {
@@ -123,7 +123,7 @@ section {
 }
 
 .search-icons {
-    margin-top: 10px;
+    margin-top: 50px;
 }
 
 .search-icons a {
