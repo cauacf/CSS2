@@ -176,7 +176,111 @@ section {
     margin-bottom: 30px; /* Espaçamento inferior para o título */
 }
 
-.social-icons a {
+.social-icons a {a/* style.css */
+
+    /* Estilo geral */
+    body {
+        font-family: Arial, sans-serif;
+        color: #333;
+        background-color: #f8f9fa;
+    }
+    
+    .navbar {
+        background-color: #343a40;
+    }
+    
+    .navbar-brand {
+        font-size: 1.5rem;
+    }
+    
+    .nav-link {
+        font-size: 1rem;
+    }
+    
+    .search-container {
+        background-color: #343a40;
+        padding: 1rem;
+        color: #fff;
+    }
+    
+    .search-bar {
+        width: 100%;
+        padding: 0.5rem;
+        margin-bottom: 1rem;
+        border: none;
+        border-radius: 0.25rem;
+        font-size: 1rem;
+    }
+    
+    .search-icons a {
+        color: #fff;
+        margin: 0 0.5rem;
+    }
+    
+    .search-icons img {
+        width: 24px;
+        height: 24px;
+    }
+    
+    .panda-image {
+        max-width: 200px;
+    }
+    
+    .card {
+        margin-bottom: 1.5rem;
+    }
+    
+    .card-img-top {
+        max-height: 200px;
+        object-fit: cover;
+    }
+    
+    .card-body {
+        background-color: #f8f9fa;
+    }
+    
+    .btn-primary {
+        background-color: #007bff;
+        border-color: #007bff;
+    }
+    
+    .btn-primary:hover {
+        background-color: #0056b3;
+        border-color: #004085;
+    }
+    
+    .overlay-text {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1.5rem;
+        text-align: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    .card:hover .overlay-text {
+        opacity: 1;
+    }
+    
+    .modal-content {
+        background-color: #fff;
+        color: #333;
+    }
+    
+    .social-icon {
+        width: 40px;
+        height: 40px;
+        margin: 0 0.5rem;
+    }
+    
     margin: 0 15px; /* Espaçamento horizontal entre os ícones */
     display: inline-block;
 }
