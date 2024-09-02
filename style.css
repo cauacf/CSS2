@@ -308,3 +308,55 @@ section {
     background-color: #ffffff
     
 }
+
+/* Estilo para os botões primários */
+.btn-primary {
+    color: #fff; /* Cor do texto */
+    background-color: #007bff; /* Cor de fundo */
+    border-color: #007bff; /* Cor da borda */
+    border-radius: 5px; /* Cantos arredondados */
+    padding: 10px 20px; /* Espaçamento interno */
+    font-size: 16px; /* Tamanho da fonte */
+    text-transform: uppercase; /* Texto em maiúsculas */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    border-color: #004085; /* Cor da borda ao passar o mouse */
+}
+
+/* Estilo para as avaliações e cards */
+.card {
+    background-color: #343a40; /* Cor de fundo do card */
+    border-radius: 8px; /* Cantos arredondados */
+    margin-bottom: 20px; /* Espaçamento inferior entre os cards */
+    padding: 15px; /* Espaçamento interno */
+}
+
+.card-title {
+    margin-bottom: 10px; /* Espaçamento inferior do título */
+    font-size: 18px; /* Tamanho da fonte do título */
+    color: #ffffff; /* Cor do texto do título */
+}
+
+.card-body {
+    font-size: 16px; /* Tamanho da fonte do corpo do card */
+    color: #666; /* Cor do texto do corpo do card */
+}
+
+.card small.text-muted {
+    font-size: 14px; /* Tamanho da fonte para o texto menor */
+    color: #999; /* Cor do texto menor */
+}
+
+/* Adiciona um estilo ao botão dentro do card */
+.card-body .btn {
+    margin-top: 10px; /* Espaçamento superior do botão */
+}
+
+/* Estilo para as avaliações */
+.card-body .rating {
+    font-size: 18px; /* Tamanho da fonte das estrelas */
+    color: #ffcc00; /* Cor das estrelas */
+    margin-bottom: 10px; /* Espaçamento inferior das estrelas */
+}
