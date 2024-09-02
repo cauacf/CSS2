@@ -8,21 +8,20 @@ html {
     scroll-padding-top: 80px; /* Ajuste para a altura do seu header */
 }
 
-
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #181818;
-    color: #fff;
+    background-color: #181818; /* Cor de fundo */
+    color: #e0e0e0; /* Cor do texto */
 }
 
-.panda-image{
+.panda-image {
     width: 480px;
     height: 363px;
 }
 
 .navbar {
-    background-color: #222;
+    background-color: #222; /* Cor de fundo da navbar */
 }
 
 section {
@@ -35,7 +34,7 @@ section {
 }
 
 #registro, #login, #galeria {
-    background-color: #333;
+    background-color: #333; /* Cor de fundo das seções */
 }
 
 #login {
@@ -48,9 +47,24 @@ section {
     margin: 0 auto;
 }
 
+.nav-link {
+    color: #f8f9fa; /* Cor do texto dos links da navbar */
+}
+
+.nav-link:hover {
+    color: #e0e0e0; /* Cor do texto ao passar o mouse */
+}
+
 .btn-primary {
-    background-color: #44C267;
-    border-color: #44C267;
+    color: #ffffff; /* Cor do texto do botão */
+    background-color: #007bff; /* Cor de fundo do botão */
+    border-color: #007bff; /* Cor da borda do botão */
+}
+
+.btn-primary:hover {
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+    background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+    border-color: #004085; /* Cor da borda ao passar o mouse */
 }
 
 @media (min-width: 768px) {
@@ -58,6 +72,7 @@ section {
         margin-left: auto;
     }
 }
+
 .card {
     width: 300px; /* Largura fixa */
     height: 400px; /* Altura fixa */
@@ -68,14 +83,12 @@ section {
     margin-bottom: 20px; /* Espaçamento inferior entre os cards */
 }
 
-/* Ajusta a imagem dentro do card */
 .card-img-top {
     width: 100%; /* Largura da imagem para ocupar todo o espaço do card */
     height: 200px; /* Altura fixa da imagem */
     object-fit: cover; /* Ajusta a imagem para cobrir toda a área definida */
 }
 
-/* Estilo do conteúdo dentro do card */
 .card-body {
     padding: 15px;
     display: flex;
@@ -84,7 +97,6 @@ section {
     height: 200px; /* Altura do conteúdo ajustada para preencher o card */
 }
 
-/* Botão dentro do card */
 .card-body .btn {
     align-self: flex-end; /* Posiciona o botão no final do card */
     margin-bottom: 35px;
@@ -95,21 +107,20 @@ section {
     bottom: 0;
     left: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, 0.6);
-    color: white;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo com mais opacidade para contraste */
+    color: #e0e0e0; /* Cor do texto */
     text-align: center;
     opacity: 0;
     transition: opacity 0.3s ease;
     padding: 10px;
 }
+
 .card:hover .overlay-text {
     opacity: 1;
 }
 
 .search-container {
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 10px;
     margin-top: 50px;
 }
 
@@ -143,14 +154,14 @@ section {
 
 /* Estilo opcional para o modal, se necessário */
 .modal-content {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Cor de fundo do modal */
+    color: #e0e0e0; /* Cor do texto */
 }
 
 .modal-header {
-    border-bottom: 1px solid #6A00BD;
+    border-bottom: 1px solid #6A00BD; /* Cor da borda inferior */
 }
 
 .modal-footer {
-    border-top: 1px solid #6A00BD;
+    border-top: 1px solid #6A00BD; /* Cor da borda superior */
 }
