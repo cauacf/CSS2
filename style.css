@@ -165,3 +165,42 @@ section {
 .modal-footer {
     border-top: 1px solid #6A00BD; /* Cor da borda superior */
 }
+
+#redes-sociais {
+    background-color: #333; /* Cor de fundo da seção de redes sociais */
+    color: #e0e0e0; /* Cor do texto */
+    padding: 60px 0; /* Espaçamento vertical */
+}
+
+#redes-sociais h2 {
+    margin-bottom: 30px; /* Espaçamento inferior para o título */
+}
+
+.social-icons a {
+    margin: 0 15px; /* Espaçamento horizontal entre os ícones */
+    display: inline-block;
+}
+
+.social-icons img {
+    width: 40px; /* Tamanho dos ícones */
+    height: 40px;
+    transition: transform 0.3s; /* Transição para efeito de hover */
+}
+
+.social-icons img:hover {
+    transform: scale(1.1); /* Efeito de zoom ao passar o mouse */
+}
+
+/* Estilos específicos para a página de feedback */
+#feedback, #avaliacoes {
+    background-color: #222; /* Cor de fundo das seções */
+}
+
+.text-center{
+    margin-bottom: 40px;
+}
+
+#feedback .form-control{
+    background-color: #ffffff
+    
+}
